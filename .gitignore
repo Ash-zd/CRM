@@ -1,2 +1,6 @@
-#
+# ignore .idea
 .idea/*
+
+/tmp/*
+
+/log/*
