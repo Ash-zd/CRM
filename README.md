@@ -2,7 +2,7 @@
 * Description: Software Engineering: Software Requirements Analysis, 2018 Autumn, HDU.  
 
 # 客户关系管理系统(CRM)  
-## 0x00 架构选型:  
+## 0x00 架构选型  
 * 前端:  
 * 后端:  
 * 运维:  
