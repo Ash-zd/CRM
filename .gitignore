@@ -38,3 +38,5 @@ db/schema.rb
 /public/storage/*
 
 config/master.key
+
+/vendor/*
