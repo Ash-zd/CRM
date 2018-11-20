@@ -1,0 +1,15 @@
+current directory: /home/ash/Desktop/CRM/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+/usr/share/rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181120-5627-1chfxdw.rb extconf.rb
+creating Makefile
+
+current directory: /home/ash/Desktop/CRM/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/ash/Desktop/CRM/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/ash/Desktop/CRM/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20181120-5627-13f6skj
