@@ -1,0 +1,34 @@
+Rails:
+  Enabled: true
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+  IgnoreCopDirectives: true
+Metrics/MethodLength:
+  Max: 15
+  Exclude:
+    - db/**/*
+Metrics/BlockLength:
+  Exclude:
+    - '**/routes.rb'
+    - config/environments/*
+    - db/**/*
+Metrics/AbcSize:
+  Enabled: false
+Naming/UncommunicativeMethodParamName:
+  MinNameLength: 2
+  AllowedNames:
+    - q
+    - _
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/MixinUsage:
+  Enabled: false
+Rails/SkipsModelValidations:
+  Include:
+    - touch
+Rails/InverseOf:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
