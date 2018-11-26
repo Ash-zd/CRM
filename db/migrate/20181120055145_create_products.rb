@@ -5,8 +5,8 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.string :category
       t.string :introduction
       t.integer :inventory
-      t.integer :salesAmount
-      t.string :marketingKnowledge
+      t.integer :sales_amount
+      t.string :marketing_knowledge
 
       t.timestamps
     end
