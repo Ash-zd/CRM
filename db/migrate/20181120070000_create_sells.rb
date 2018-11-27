@@ -3,10 +3,12 @@
 class CreateSells < ActiveRecord::Migration[5.2]
   def change
     create_table :sells do |t|
-      t.date :planTime
-      t.text :planContent
-      t.belongs_to :chance
-      t.belongs_to :expense_account
+      t.belongs_to :product ,index: true
+      t.integer :product_num
+      t.string :sale_path
+      t.double :price
+      t.date :plan_time
+      t.double :sale_expense
       t.timestamps
     end
   end
