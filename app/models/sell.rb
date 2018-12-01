@@ -1,6 +1,6 @@
 class Sell < ApplicationRecord
-  belongs_to :chance, :expense_account
-  validates :chance,:expense_account, presence: true
-  validates :plan_time,:plan_content, presence: true
-
+  belongs_to :product
+  validates :product_num,:sale_path,:price,:plan_time,:sale_expense, presence: true
+  validates :product_num,:product_id,numericality: { only_integer: true }
+  validates :price,:sale_expense,numericality: true
 end
