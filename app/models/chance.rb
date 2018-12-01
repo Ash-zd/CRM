@@ -1,5 +1,6 @@
 class Chance < ApplicationRecord
   belongs_to :user
-  validates :user, presence: true
-  validates :chance_context,presence: true
+  belongs_to :client
+  validates :user, presence: true, allow_nil: true, on: :update
+  validates :context, absence: true
 end
