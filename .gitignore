@@ -39,4 +39,4 @@ db/schema.rb
 
 config/master.key
 
-/vendor/*
+vendor/*

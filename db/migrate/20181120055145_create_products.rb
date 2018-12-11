@@ -9,7 +9,6 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.integer :inventory
       t.integer :sales_amount
       t.string :marketing_knowledge
-
       t.timestamps
     end
   end

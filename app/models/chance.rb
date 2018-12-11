@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 class Chance < ApplicationRecord
-  belongs_to :user
-  validates :user, presence: true
-  validates :chance_context,presence: true
+  belongs_to :user, optional: true
+  belongs_to :client
+  validates :client, presence: true
+  validates :user, presence: true, on: :update
+  validates :content, presence: true
 end
